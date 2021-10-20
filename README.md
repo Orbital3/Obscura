@@ -88,4 +88,4 @@
 | Polissage et résolution 	| Philippe 	| Test final du menu de début et de fin, des particules, du champ de vision et de la jouabilité en ensemble 	| Unity 	|
 |  	| Sabrina 	| Test final des animations, des intéractions et trouver des erreurs 	| Unity 	|
 |  	| Raphaël 	| Test final de l'expérience (tester les limites) 	| Unity 	|
-|  	| Shylove 	| Test final de l'expérience (test de l'intéractivité et la fin) 	|  	|
+|  	| Shylove 	| Test final de l'expérience (test de l'intéractivité et la fin) 	| Unity	|

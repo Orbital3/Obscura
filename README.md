@@ -1,6 +1,5 @@
-# Identification de l'équipe
 ## Titre du projet 
-> ## Obscura
+> ### Obscura
 
 <br/>
 
@@ -13,23 +12,23 @@
 <br/>
 
 ## Lien vers le GitHub
-![GitHub](https://github.com/Orbital3/Obscura)
+[GitHub](https://github.com/Orbital3/Obscura)
 
 <br/>
 
 ## Conception du projet
-| Élément 	| Question 	| Description 	|  	|  	|
-|---	|---	|---	|---	|---	|
-| Contrôle du personnage 	| L'interacteur est représenté par  	| Une entité qui n'existe, mais qui contrôle le personnage 	|  	|  	|
+| Élément 	| Question 	| Description 	|
+|---	|---	|---	|
+| Contrôle du personnage 	| L'interacteur est représenté par  	| Une entité qui n'existe, mais qui contrôle le personnage 	|
 |  	| Il contrôle avec  	| Les manettes et les joysticks 	|  	|  	|
-|  	| Pour pouvoir faire 	| Bouger dans l'espace et pouvoir interagir avec des objets qui émettront de la lumière 	|  	|  	|
-| Déplacement 	| Décrivez comment l'interacteur peut se déplacer 	| L'interacteur peut bouger aisément et facilement sur touts les axes sauf sauter et descendre. Les limites vont être défini par l'environnement. 	|  	|  	|
-| Progression 	| L'expérience progresse par accumulation 	| L'expérience progresse par accumulation de la découverte des environnements autour de lui et par l'accumulation de lumières dans la zone. 	|  	|  	|
-|  	| Décrivez ce qui se passe à mesure que l'expérience progresse 	| L'interacteur commence l'expérience dans un endroit sombre et restreint de lumière et il va progresser en découvrant des éléments environnants et interagissant avec ces dits éléments pour créer une forêt de lumières. 	|  	|  	|
-|  	| Un objectif ? 	| L'objectif est de vivre une expérience sonore et interactive grâce aux lumières et aux sons environnants. 	|  	|  	|
-| Effets Sonores 	| Décrivez les effets sonores 	| Il y aura une musique d'ambiance et des effets sonores selon l'élément touché, lors de l'activation de l'élément et des effets sonores autres. 	|  	|  	|
-| Effets de particules 	| Décrivez les effets de particules 	| Des lucioles, de la brume, des feuilles qui tombent, des étoiles dans le ciel, particule d'interactivité lors de l'activation des objets. (si nous avons le temps, particule d'eau) 	|  	|  	|
-| Outils 	| Décrivez tous les outils logiciels que vous allez utiliser 	| Unity, Maya, Reaper et autres. 	|  	|  	|
+|  	| Pour pouvoir faire 	| Bouger dans l'espace et pouvoir interagir avec des objets qui émettront de la lumière 	|
+| Déplacement 	| Décrivez comment l'interacteur peut se déplacer 	| L'interacteur peut bouger aisément et facilement sur touts les axes sauf sauter et descendre. Les limites vont être défini par l'environnement. 	|
+| Progression 	| L'expérience progresse par accumulation 	| L'expérience progresse par accumulation de la découverte des environnements autour de lui et par l'accumulation de lumières dans la zone. 	|
+|  	| Décrivez ce qui se passe à mesure que l'expérience progresse 	| L'interacteur commence l'expérience dans un endroit sombre et restreint de lumière et il va progresser en découvrant des éléments environnants et interagissant avec ces dits éléments pour créer une forêt de lumières. 	|
+|  	| Un objectif ? 	| L'objectif est de vivre une expérience sonore et interactive grâce aux lumières et aux sons environnants. 	|
+| Effets Sonores 	| Décrivez les effets sonores 	| Il y aura une musique d'ambiance et des effets sonores selon l'élément touché, lors de l'activation de l'élément et des effets sonores autres. 	|
+| Effets de particules 	| Décrivez les effets de particules 	| Des lucioles, de la brume, des feuilles qui tombent, des étoiles dans le ciel, particule d'interactivité lors de l'activation des objets. (si nous avons le temps, particule d'eau) 	|
+| Outils 	| Décrivez tous les outils logiciels que vous allez utiliser 	| Unity, Maya, Reaper et autres. 	|
 
 ## Esquisse
 ### Moment 01 

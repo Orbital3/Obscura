@@ -57,7 +57,7 @@
 ## Ligne de temps
 | Échéance 	| Qui ? 	| Fait quoi (objectifs mesurables) 	| Comment ? 	|
 |---	|---	|---	|---	|
-| Plan 27 Octobre 	| Raph 	| Terminer de remplir chaque page et section du plan! 	| Word 	|
+| Plan 27 Octobre 	| Raph 	| ~~Terminer de remplir chaque page et section du plan!~~ 	| Word 	|
 |  	| Phil 	|  	|  	|
 |  	| Sabrina 	|  	|  	|
 |  	| Shylove 	|  	|  	|

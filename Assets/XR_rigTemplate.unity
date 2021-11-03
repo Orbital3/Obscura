@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5228077, g: 2.3357174, b: 8.710056, a: 1}
+  m_IndirectSpecularColor: {r: 0.5285909, g: 2.350481, b: 8.70253, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -416,7 +416,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 03c7265bed53c894ead65a0d9d1410cb, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &524335007
 Terrain:
   m_ObjectHideFlags: 0
@@ -465,6 +465,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1479695867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2226974801450080646, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
+  m_PrefabInstance: {fileID: 2226974801161567623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &1479695871
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479695867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.79
+  m_Radius: 0.6
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
@@ -523,15 +546,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2226974801450080644, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 154.4
+      value: 151.18
       objectReference: {fileID: 0}
     - target: {fileID: 2226974801450080644, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.4
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 2226974801450080644, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.9
+      value: 58.8
       objectReference: {fileID: 0}
     - target: {fileID: 2226974801450080644, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -561,9 +584,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.853
       objectReference: {fileID: 0}
+    - target: {fileID: 2226974801450080645, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2226974801450080646, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
       propertyPath: m_Name
       value: XR Rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226974801463343729, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2226974801463343729, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}
+      propertyPath: m_ForwardSource
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9876bffb19fab42b559c2100dd6ceb, type: 3}

@@ -19,7 +19,7 @@ MonoBehaviour:
   m_DefaultLookDevProfile: {fileID: 11400000, guid: 254c4fe87beb7be4fa72e1681edbed02, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 140666621263709
+      data1: 140666621263711
       data2: 4539628425463136280
     lodBias: 1
     lodBiasMode: 0
@@ -109,10 +109,11 @@ MonoBehaviour:
     supportDitheringCrossFade: 1
     supportTerrainHole: 0
     supportProbeVolume: 0
-    probeVolumeMemoryBudget: 1024
-    probeVolumeSHBands: 1
     supportRayTracing: 0
     supportedRayTracingMode: 3
+    probeVolumeSettings:
+      atlasResolution: 128
+      atlasOctahedralDepthResolution: 2048
     lightLoopSettings:
       cookieAtlasSize: 512
       cookieFormat: 74
@@ -135,8 +136,6 @@ MonoBehaviour:
       maxDecalsOnScreen: 512
       maxPlanarReflectionOnScreen: 16
       maxLightsPerClusterCell: 16
-      maxDensityVolumeSize: 32
-      maxDensityVolumesOnScreen: 64
     hdShadowInitParams:
       maxShadowRequests: 128
       directionalShadowsDepthBits: 16
@@ -295,7 +294,7 @@ MonoBehaviour:
       - 0.5
   allowShaderVariantStripping: 1
   enableSRPBatcher: 1
-  shaderVariantLogLevel: 0
+  shaderVariantLogLevel: 2
   availableMaterialQualityLevels: -1
   m_DefaultMaterialQualityLevel: 4
   diffusionProfileSettings: {fileID: 0}

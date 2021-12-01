@@ -211,7 +211,7 @@ MonoBehaviour:
     showEyeDropper: 1
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.22745098, g: 0.12006031, b: 0, a: 1}
+    m_Value: {r: 0, g: 0.0056252033, b: 0.2264151, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
@@ -234,7 +234,7 @@ MonoBehaviour:
     min: 0
   baseHeight:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 15
   maximumHeight:
     m_OverrideState: 0
     m_Value: 177.3

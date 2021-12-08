@@ -38,11 +38,15 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream:Assets/Obscura.unity
   m_IndirectSpecularColor: {r: 0.0000000048894435, g: 14.283005, b: 49.21924, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0, g: 14.106707, b: 47.034092, a: 1}
 >>>>>>> Stashed changes:Assets/XR_rigTemplate.unity
+=======
+  m_IndirectSpecularColor: {r: 0, g: 13.651339, b: 46.86315, a: 1}
+>>>>>>> parent of bdd30d2 (introoutro scene)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3457,13 +3461,6 @@ GameObject:
   - component: {fileID: 188177693}
   - component: {fileID: 188177692}
   - component: {fileID: 188177695}
-  - component: {fileID: 188177702}
-  - component: {fileID: 188177701}
-  - component: {fileID: 188177700}
-  - component: {fileID: 188177699}
-  - component: {fileID: 188177698}
-  - component: {fileID: 188177697}
-  - component: {fileID: 188177696}
   m_Layer: 0
   m_Name: Portail
   m_TagString: Untagged
@@ -3493,10 +3490,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188177690}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &188177693
@@ -3645,163 +3642,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &188177696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: b1d6e66721b1a0f4183c913b5364cbf4, type: 2}
---- !u!114 &188177697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
---- !u!65 &188177698
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 10.000002, y: 0.000001413913, z: 10}
-  m_Center: {x: 0, y: 0.0000076293945, z: -0.0000038146973}
---- !u!114 &188177699
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c69177d2544c73419d14a4bf4817f3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CountProperty:
-    m_Name: Count
-  m_TextureProperty:
-    m_Name: SpectrumTexture
-  FFTWindow: 5
-  Samples: 64
-  Mode: 0
-  AudioSource: {fileID: 0}
---- !u!114 &188177700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 188177699}
-  m_VisualEffect: {fileID: 188177702}
---- !u!73398921 &188177701
-VFXRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 0
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 257
-  m_RendererPriority: 0
-  m_Materials: []
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!2083052967 &188177702
-VisualEffect:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188177690}
-  m_Enabled: 1
-  m_Asset: {fileID: 0}
-  m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
-  m_ResourceVersion: 1
-  m_PropertySheet:
-    m_Float:
-      m_Array: []
-    m_Vector2f:
-      m_Array: []
-    m_Vector3f:
-      m_Array: []
-    m_Vector4f:
-      m_Array: []
-    m_Uint:
-      m_Array: []
-    m_Int:
-      m_Array: []
-    m_Matrix4x4f:
-      m_Array: []
-    m_AnimationCurve:
-      m_Array: []
-    m_Gradient:
-      m_Array: []
-    m_NamedObject:
-      m_Array: []
-    m_Bool:
-      m_Array: []
 --- !u!4 &190594203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 74642b93897a20649ac38dce06a96cbe, type: 3}
@@ -32661,19 +32501,6 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &1088341843
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088341839}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7188852, y: 1.7242396, z: 2.3889933}
-  m_Center: {x: 1.9671632, y: 0.08493472, z: -2.4292483}
 --- !u!4 &1089465954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7453198443249848587, guid: 6d0682880aad6c34db4a1e3d434b3956, type: 3}

@@ -132,6 +132,7 @@ PlayerSettings:
   - {fileID: -5933102978911865590, guid: daf972a3c35289d46841d74b7704e4f9, type: 2}
   - {fileID: 4089777472901335634, guid: 3a8ce6e515312f54bbd37a9c4f8eb8b6, type: 2}
   - {fileID: 11400000, guid: cae46e1d7b9bd5f45b845a123651ab1c, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -613,7 +614,8 @@ PlayerSettings:
   gcIncremental: 0
   assemblyVersionValidation: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Standalone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_HD
